@@ -2,11 +2,11 @@
 
 - Create Rep on GitHub GUI
 - Initilize the currnt Dir as a get repo
-..* `git init`
+    `git init`
 - Point local repo at the remote repo
-..* `git remote add origin https://<someURL>.git`
+    `git remote add origin https://<someURL>.git`
 - Clone a repo on on GitHub
-..* git cone https://<someURL>.git
+    `git cone https://<someURL>.git`
 
 # Adding to VC
 get add .                   # add all new files
