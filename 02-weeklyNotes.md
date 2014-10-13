@@ -1,11 +1,12 @@
-Git Notes:
+# Git Notes: Week 2
 
-Creat Rep on GitHub GUI
-git init                # initilize the currnt Dir as a get repo
-git remote add origin https://<someURL>.git         # point local repo at the remote repo
-
-For Repon on GitHub GUI
-git cone https://<someURL>.git              # copy a remote repo
+- Create Rep on GitHub GUI
+- Initilize the currnt Dir as a get repo
+..* `git init`
+- Point local repo at the remote repo
+..* `git remote add origin https://<someURL>.git`
+- Clone a repo on on GitHub
+..* git cone https://<someURL>.git
 
 # Adding to VC
 get add .                   # add all new files
