@@ -20,7 +20,10 @@
 ## Committing
 - Commit and provide a useful description (-m) of what you did
     - `git commit -m "message"
-    - can i use -a and -m?
+- Use the -a (all) argument to automatically stage files changed or deleted, this will not track new files
+    - `git commit -a`
+- Use -a and -m to do both
+    - `git commit -a -m "the message"
 
 ## Pushing (from local repo to remote)
 - `git push <remoteRepo> <branch>`
