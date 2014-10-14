@@ -55,11 +55,9 @@
 
 \- second item in an unordered list
 
-    \- nested unordered list
-
 1. first item in an ordered list
 
-\.\.1. nested ordered list
+    \.\.1. nested ordered list
 
 \_Italics\_
 
