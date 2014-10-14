@@ -41,32 +41,32 @@
 ## Markdown Notes
 - Markdown files have the .md extention
 
-`# Heading
-^## Secondary heading
-### Tertiary
+\# Heading
+\#\# Secondary heading
+\#\#\# Tertiary
 
-* first itme in list
-* second item
-* third item in list
+\* first itme in list
+\* second item
+\* third item in list
 
-# R packages
-* CRAN or Bioconductor Project
-* 'a <- available.packages()''
-Install the "slidify" R package
-`install.packages("slidify")`
-Can also install from RStudio
-'''Tools > Inatall Packages'''
+## R packages
+- CRAN or Bioconductor Project
+- 'a <- available.packages()'
+- i.e. Install the "slidify" R package
+    - `install.packages("slidify")`
+- You can also install from RStudio
+    - '''Tools > Inatall Packages'''
 
 ## Bioconductor install
-### Install Bioconductore 
-source("http://bioconductor.org/biocLite.R")
-biccLite()
+- Install Bioconductore 
+    -`source("http://bioconductor.org/biocLite.R")`
+    - `biccLite()`
+- Install a bioconductor package
+    - biocLite(c("GenomicFeatures", "AnnotationDBi"))
 
-### Install a bioconductor package
-biocLite(c("GenomicFeatures", "AnnotationDBi"))
-
-### Loading R Packages
-`libary()`          - function used to load packages
-Load "ggplot2"
-    libary(ggplot2)
-The type `search()` to view the functions associted with the package
+## Loading R Packages
+- function used to load packages
+    - `library(<package_name)`
+- i.e. Load "ggplot2"
+    - libary(ggplot2)
+- Type `search()` to view the functions associted with the package
