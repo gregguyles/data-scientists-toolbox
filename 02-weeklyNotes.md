@@ -1,6 +1,6 @@
 # Git Notes: Week 2
 
-## Creating a 
+## Creating a Repo
 - Create Rep on GitHub GUI
 - Initilize the currnt Dir as a get repo
     - `git init`
@@ -22,23 +22,27 @@
     - `git commit -m "message"
 
 ## Pushing (from local repo to remote)
+`git push <remoteRepo> <branch>
 `git push origin master`
 
-# Branches - create a new repo of exisitng code
-git checkout -b branchname          # create new branch
-git branch                                         # see what branch you are on
-git checkout master                         # switch back to master
+## Branches - create a new repo of exisitng code
+- create a new branch
+    - `git checkout -b branchname`
+- see what branch you are on
+    - `git branch`
+- switch back to master
+    - `git checkout master`
 
-# Pull Requiest - Git Hub feature
-select compare and pul request 
-the auther will decide to merge or not 
+## Pull Requiest - Git Hub feature
+- select "compare and pull request"
+- Submits a request for changes to be merged into the master
+- The repo owner will decide to merge or not 
 
-# Markdown Notes
+## Markdown Notes
+- Markdown files have the .md extention
 
-.md
-
-# Heading
-## Secondary heading
+`# Heading
+^## Secondary heading
 ### Tertiary
 
 * first itme in list
