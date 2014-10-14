@@ -1,5 +1,6 @@
 # Git Notes: Week 2
 
+## Creating a 
 - Create Rep on GitHub GUI
 - Initilize the currnt Dir as a get repo
     - `git init`
@@ -8,17 +9,20 @@
 - Clone a repo on on GitHub
     `git cone https://<someURL>.git`
 
-# Adding to VC
-get add .                   # add all new files
-get add -u                # updates tracing for all files that changed names or were deleted
-get add -add            # does both previous
-# do this befoe committing
+## Adding to Version Controle (do this befoe committing)
+- Add all new files
+    - `get add .`
+- Updates tracing for all files that changed names or were deleted
+    - `get add -u`
+- Do both previous
+    - get add -add
 
-# Committing
-git commit -m "message"         # where message is a usefull description of what you did
+## Committing
+- Commit and priovide a usefull description (-m) of what you did
+    - `git commit -m "message"
 
-# Pushing (from local repo dir)
-git Push        # push to remote
+## Pushing (from local repo to remote)
+`git push origin master`
 
 # Branches - create a new repo of exisitng code
 git checkout -b branchname          # create new branch
