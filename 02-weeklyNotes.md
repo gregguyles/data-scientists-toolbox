@@ -20,6 +20,7 @@
 ## Committing
 - Commit and provide a useful description (-m) of what you did
     - `git commit -m "message"
+    - can i use -a and -m?
 
 ## Pushing (from local repo to remote)
 - `git push <remoteRepo> <branch>`
