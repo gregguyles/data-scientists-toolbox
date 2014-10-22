@@ -76,14 +76,14 @@
 - You can also install from RStudio
     - **Tools > Install Packages**
 
-## Bioconductor install
+### Bioconductor install
 - Install Bioconductore 
     -`source("http://bioconductor.org/biocLite.R")`
     - `biccLite()`
 - Install a bioconductor package
     - biocLite(c("GenomicFeatures", "AnnotationDBi"))
 
-## Loading R Packages
+### Loading R Packages
 - function used to load packages
     - `library(<package_name>)`
 - i.e. Load "ggplot2"
