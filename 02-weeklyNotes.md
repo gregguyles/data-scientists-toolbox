@@ -11,11 +11,11 @@
 
 ## Adding files to version control (do this before committing)
 - Add all new files
-    - `get add .`
+    - `git add .`
 - Updates tracing for all files that changed names or were deleted
-    - `get add -u`
+    - `git add -u`
 - Do both previous
-    - `get add -add`
+    - `git add [-A|--all]`
 
 ## Committing
 - Commit and provide a useful description (-m) of what you did
